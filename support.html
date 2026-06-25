@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirAPK - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #86868b;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        h2 {
+            color: #1d1d1f;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-bottom: 2px solid #0071e3;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #1d1d1f;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .feature-list {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .feature-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #34c759;
+            font-weight: bold;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f5f5f7;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            margin-top: 0;
+            color: #0071e3;
+        }
+        .contact-box {
+            background: #0071e3;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-box h2 {
+            color: white;
+            border: none;
+            margin-top: 0;
+        }
+        .contact-box a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .links {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #d2d2d7;
+        }
+        .links a {
+            color: #0071e3;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f5f5f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 14px;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .info {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .error-checklist {
+            background: #fff;
+            border: 2px solid #0071e3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .error-checklist h4 {
+            color: #0071e3;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .error-checklist ol {
+            padding-left: 20px;
+        }
+        .error-checklist li {
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .error-checklist strong {
+            color: #d32f2f;
+        }
+        .step-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AirAPK Support</h1>
+        <p class="subtitle">Professional Android TV Toolkit - Technical Support & Documentation</p>
+
+        <h2>📱 App Features</h2>
+        <div class="feature-list">
+            <ul>
+                <li><strong>LAN ADB Device Management</strong> - Connect via IP & Port (default 5555) or 6-digit Pairing Code</li>
+                <li><strong>Advanced AV Capability Inspector</strong> - Detect HDR10, HDR10+, HLG, Dolby Vision, Audio Passthrough (AC3, E-AC3, TrueHD, DTS, DTS-HD)</li>
+                <li><strong>APK Installation</strong> - Push & Install APKs via QR Code or Direct Download Link</li>
+                <li><strong>App Manager</strong> - Browse, Force Stop, Uninstall, and Clear Cache</li>
+                <li><strong>Screen Mirroring</strong> - Low-latency TV screen projection via optimized ADB protocol</li>
+                <li><strong>Virtual Remote Control</strong> - D-pad, Media Keys, Home/Back Navigation</li>
+                <li><strong>File Manager</strong> - Push and Pull files between iOS and Android TV</li>
+                <li><strong>ADB Shell</strong> - Execute commands directly on your TV</li>
+                <li><strong>Screenshot & Share</strong> - Capture and save TV screenshots</li>
+                <li><strong>Device Info</strong> - View real-time specs, Android version, and build info</li>
+            </ul>
+        </div>
+
+        <h2>🚀 Quick Start Guide</h2>
+        <div class="info">
+            <ol>
+                <li><strong>Enable Network ADB</strong> on your Android TV (see FAQ #1)</li>
+                <li><strong>Open AirAPK</strong> on your iPhone/iPad</li>
+                <li><strong>Enter TV IP</strong> and Port (default: 5555). <strong>Note:</strong> For Android 11+ TVs, you may need to <strong>Pair First</strong> using the 6-digit code (see Step 2 in the app)</li>
+                <li><strong>Tap Connect</strong> - You're in!</li>
+                <li><strong>Explore features</strong> - Detect AV capabilities, install APKs, mirror screen, and more!</li>
+            </ol>
+        </div>
+
+        <h2>❓ Frequently Asked Questions (FAQ)</h2>
+
+        <div class="faq-item">
+            <h3>Q1: How do I enable Network ADB on my Android TV?</h3>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Go to <strong>Settings</strong> → <strong>Device Preferences</strong> → <strong>About</strong></li>
+                <li>Click on <strong>Build</strong> 7 times to enable Developer Options</li>
+                <li>Go back to <strong>Settings</strong> → <strong>Device Preferences</strong> → <strong>Developer Options</strong></li>
+                <li>Enable <strong>Network ADB</strong> or <strong>ADB over Network</strong></li>
+                <li>Note the IP address and port (default: 5555)</li>
+            </ol>
+            <div class="warning">
+                <strong>Important:</strong> For Android 11+ TVs, you may also need to enable <strong>Wireless Debugging</strong> and use a 6-digit pairing code.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q2: I can't connect to my TV. What should I do?</h3>
+            <p>If you're experiencing ADB connection issues, please check the following:</p>
+            
+            <div class="error-checklist">
+                <h4>✓ Connection Troubleshooting Checklist:</h4>
+                <ol>
+                    <li><strong>Developer Mode & ADB Enabled?</strong> 
+                        <br>Ensure Developer Options and Network ADB are enabled on your TV (see Q1).</li>
+                    
+                    <li><strong>Same Local Network?</strong> 
+                        <br>Verify your iPhone/iPad and Android TV are connected to the <strong>same Wi-Fi network</strong>. They must be on the same subnet.</li>
+                    
+                    <li><strong>Correct IP and Port?</strong> 
+                        <br>Double-check the TV's IP address and port (default is <code>5555</code>). The IP can change if your TV reconnects to Wi-Fi.</li>
+                    
+                    <li><strong>Pairing Required (Android 11+)?</strong> 
+                        <br>High-version Android TVs (Android 11 and later) require a <strong>6-digit pairing code</strong>. In AirAPK, tap <strong>"Pair First"</strong> in Step 2 and enter the code shown on your TV.</li>
+                    
+                    <li><strong>AP Isolation Enabled?</strong> 
+                        <br>Some routers have <strong>AP Isolation</strong> (Client Isolation) enabled, which prevents devices on the same Wi-Fi from communicating. Check your router settings and disable AP Isolation. You can test by pinging your TV's IP from another device on the network.</li>
+                    
+                    <li><strong>Firewall or Security Software?</strong> 
+                        <br>Some TVs or network security software may block ADB connections (port 5555). Temporarily disable firewall rules to test.</li>
+                    
+                    <li><strong>TV ADB Service Running?</strong> 
+                        <br>Restart your TV to ensure the ADB daemon is running properly. Some TVs disable ADB after sleep.</li>
+                    
+                    <li><strong>Network Configuration Issues?</strong> 
+                        <br>Try using a <strong>5GHz Wi-Fi network</strong> for better stability. Avoid guest networks or VLANs that may isolate devices.</li>
+                    
+                    <li><strong>TV Brand Compatibility?</strong> 
+                        <br>Some TV brands (especially older models) may have limited ADB support. Check if your TV model is compatible (see Q6).</li>
+                </ol>
+            </div>
+
+            <div class="step-box">
+                <strong>💡 Quick Test:</strong> Try pinging your TV's IP address from another device on the same network. If ping fails, it's likely an AP Isolation or network configuration issue.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q3: What is "Reviewer Mode"?</h3>
+            <p>This is a special mode for App Store reviewers to test In-App Purchases without a physical TV.</p>
+            <p><strong>How to activate:</strong> Go to <strong>Settings</strong> and tap the <strong>"Settings" title</strong> 5 times continuously. A toast will say "Reviewer Mode Enabled", allowing you to test Pro features and IAP flow.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q4: Why does screen mirroring lag or disconnect?</h3>
+            <p>Screen mirroring uses ADB protocol over your local network. Performance depends on:</p>
+            <ul>
+                <li><strong>Network quality</strong> - Use 5GHz Wi-Fi for best results (2.4GHz may cause lag)</li>
+                <li><strong>TV processing power</strong> - Older TVs may have higher latency</li>
+                <li><strong>Resolution</strong> - Higher resolutions require more bandwidth</li>
+                <li><strong>Network congestion</strong> - Other devices using bandwidth can affect performance</li>
+            </ul>
+            <div class="info">
+                <strong>Tips for smoother mirroring:</strong>
+                <ul>
+                    <li>Ensure your TV and iOS device are close to the router</li>
+                    <li>Close other bandwidth-intensive apps</li>
+                    <li>Use a wired Ethernet connection for your TV if possible</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q5: Is my data safe? Does AirAPK collect any information?</h3>
+            <p><strong>No.</strong> AirAPK operates 100% offline. We do NOT:</p>
+            <ul>
+                <li>Collect any personal data</li>
+                <li>Transmit data to external servers</li>
+                <li>Use analytics or tracking SDKs</li>
+            </ul>
+            <p>All operations remain strictly within your local Wi-Fi network. See our <a href="airapk-privacy/">Privacy Policy</a> for details.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q6: What TVs are compatible with AirAPK?</h3>
+            <p>AirAPK works with most Android TV / Google TV devices, including:</p>
+            <ul>
+                <li>Sony Bravia TVs (2015+)</li>
+                <li>Philips Android TVs</li>
+                <li>TCL Android TVs</li>
+                <li>Hisense Android TVs</li>
+                <li>Nvidia Shield TV (all models)</li>
+                <li>Chromecast with Google TV</li>
+                <li>Xiaomi Mi Box / Mi TV</li>
+                <li>Most standard Android TV boxes</li>
+            </ul>
+            <div class="warning">
+                <strong>Note:</strong> Some TV brands may require additional steps to enable ADB. Refer to your TV's manual or contact the manufacturer.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q7: What are the Pro features?</h3>
+            <p>AirAPK offers a <strong>one-time lifetime purchase</strong> (no subscription) to unlock:</p>
+            <ul>
+                <li>Unlimited screen mirroring sessions</li>
+                <li>Advanced AV capability reports (export & share)</li>
+                <li>Priority support</li>
+                <li>Ad-free experience</li>
+                <li>Extended file transfer size limits</li>
+            </ul>
+            <div class="warning">
+                <strong>Note:</strong> All purchases are processed through Apple. For refunds, please contact Apple Support directly.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q8: The app pushes .apk and .jar files to my TV. Is this safe?</h3>
+            <p>Yes. These are helper components required for core functionality:</p>
+            <ul>
+                <li><strong>.apk file</strong> - Lightweight helper app to query TV hardware capabilities (HDR, audio codecs)</li>
+                <li><strong>.jar file</strong> - Server component to establish ADB tunnel for screen mirroring</li>
+            </ul>
+            <p>These files are <strong>static assets</strong> bundled in the iOS app and are <strong>never executed on your iOS device</strong>. They run only on your Android TV via ADB protocol.</p>
+            <div class="info">
+                <strong>Security:</strong> The .apk and .jar files are open-source and can be audited. They do not collect data or transmit information outside your local network.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Q9: How do I use the 6-digit pairing code?</h3>
+            <p>For Android 11+ TVs with Wireless Debugging enabled:</p>
+            <ol>
+                <li>In AirAPK, tap <strong>"Pair First"</strong> or go to Step 2</li>
+                <li>Enter your TV's IP address and the <strong>pairing port</strong> (usually different from 5555, check your TV's Developer Options)</li>
+                <li>Enter the <strong>6-digit pairing code</strong> displayed on your TV screen</li>
+                <li>Once paired, you can connect using the standard ADB port (5555)</li>
+            </ol>
+            <div class="warning">
+                <strong>Note:</strong> The pairing code expires after a few minutes. If it expires, generate a new code on your TV and try again.
+            </div>
+        </div>
+
+        <h2>🔧 Additional Resources</h2>
+        <div class="feature-list">
+            <ul>
+                <li><a href="airapk-privacy/">Privacy Policy</a> - How we protect your data</li>
+                <li><a href="airapk-terms/">Terms of Service</a> - Usage terms and conditions</li>
+                <li><a href="https://github.com/pengshuang-dev" target="_blank">GitHub</a> - Follow for updates and announcements</li>
+            </ul>
+        </div>
+
+        <div class="contact-box">
+            <h2>📧 Need More Help?</h2>
+            <p>If you have questions, encounter issues, or have feature requests, we're here to help!</p>
+            <p style="margin-top: 15px; font-size: 18px;">
+                Email: <a href="mailto:dev.airapk@gmail.com">dev.airapk@gmail.com</a>
+            </p>
+            <p style="margin-top: 10px;">
+                GitHub: <a href="https://github.com/pengshuang-dev" target="_blank">github.com/pengshuang-dev</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 14px; opacity: 0.9;">
+                Average response time: 24-48 hours
+            </p>
+        </div>
+
+        <div class="links">
+            <a href="airapk-privacy/">Privacy Policy</a>
+            <a href="airapk-terms/">Terms of Service</a>
+            <a href="https://github.com/pengshuang-dev" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
